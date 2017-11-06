@@ -21,6 +21,19 @@ jar: `mvn clean package && java -jar target/dumb-account-service-1.0-SNAPSHOT.ja
 
 `mvn spring-boot:run`
 
+### Примеры
+json для создания аккаунта:
+```
+{
+"partner_id": 0,
+"profile_id": 1,
+"name": "BUDDY",
+"avatar_url": "http://example.com"
+}
+```
+Имя должно быть не короче 4 символов, `avatar_url` - корректным урлом
+
+
  
 
  
